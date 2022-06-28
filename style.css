@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+
+header {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+}
+
+header a,
+span {
+    color: #000000;
+    font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+header a:first-child {
+    font-family: 'Tourney', Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.left-header nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-header img {
+    vertical-align: middle;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.wrapper img {
+    position: fixed;
+    right: 0;
+    z-index: -1;
+}
+
+aside {
+    width: 32%;
+    height: 100%;
+    position: sticky;
+    top: 160px;
+}
+
+h2 {
+    padding-bottom: 40px;
+    font-family: 'Francois One', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+aside li {
+    height: 58px;
+    margin-bottom: 70px;
+    list-style: none;
+    border-bottom: 1px solid #bdbdbd;
+
+}
+
+aside a {
+    text-decoration: none;
+    color: #000000;
+}
+
+aside a:hover {
+    color: #575757;
+}
+
+h2 sup {
+    color: #373737;
+    font-family: 'Farro', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: none;
+}
+
+main {
+    width: 65%;
+}
+
+main div {
+    margin-bottom: 30px;
+}
+
+main div::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background-color: #000000;
+}
+
+main h2 {
+    padding-top: 28px;
+}
+
+p {
+    padding-bottom: 40px;
+    line-height: 48px;
+}
+
+.grey-bg {
+    background-color: #cccccc;
+}
